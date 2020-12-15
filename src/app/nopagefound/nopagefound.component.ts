@@ -1,4 +1,3 @@
-import { LoginComponent } from './../../auth/login/login.component';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,12 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./nopagefound.component.css']
 })
 export class NopagefoundComponent {
-  
- 
-   year = new Date().getFullYear();    
-   
-   
-  
-  
+   year = new Date().getFullYear();
 
 }
